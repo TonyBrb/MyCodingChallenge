@@ -1,0 +1,85 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.container{
+  width: 800px;
+  height: 515px;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  background-color: #00000099;
+  border-radius: 10px;
+}
+
+header>img{
+  width: 200px;
+  display: block;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+header>h1{
+  font-family: 'Poppins', sans-serif;
+  color:#30ff30;
+  text-align: center;
+}
+
+nav{
+  background-color:#30ff30;
+  height: 40px;
+  width: 700px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav button{
+  font-family: 'Poppins', sans-serif;
+}
+
+main{
+  width: 700px;
+  margin: auto;
+}
+
+.monopattino1 div>span{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.monopattino2 div>span{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.monopattino3 div>span{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.monopattino1 div:last-child{
+  width: 45%;
+  height: 15px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.monopattino2 div:last-child{
+  width: 60%;
+  height: 15px;
+  background-color:#30ff30;
+  border-radius: 10px;
+}
+
+.monopattino3 div:last-child{
+  width: 15%;
+  height: 15px;
+  background-color: red;
+  border-radius: 10px;
+}
